@@ -3,6 +3,7 @@ body
 {	    
 font-family: 'Roboto', sans-serif;
 }
+
 h1
 {
 	font-family: 'Shrikhand', cursive;
@@ -18,9 +19,16 @@ text-align: center;
 .logomap
 {
 	display: flex;
+	
 	background-color: lightgrey;
 	padding: 10px;
 }
+.barre
+{
+	display: flex;
+	justify-content: center;
+}
+
 .buttonexplo
 {
 	display: flex;
@@ -29,17 +37,14 @@ text-align: center;
 	background-color: purple;
 	border-radius: 10px 10px 10px 10px;
 	color: white;
+
 }
 
 i
 {
 margin-right: 15px;
 }
-form
-{
 
- 
-}
 .cadrereserv
 {
 background-color: lightgrey;
