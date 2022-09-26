@@ -20,12 +20,17 @@ text-align: center;
 	display: flex;
 	background-color: lightgrey;
 	padding: 10px;
-
-
-
-
-
 }
+.buttonexplo
+{
+	display: flex;
+	justify-content: center;
+	border: none;
+	background-color: purple;
+	border-radius: 10px 10px 10px 10px;
+	color: white;
+}
+
 i
 {
 margin-right: 15px;
@@ -56,5 +61,12 @@ background-color: lightgrey;
 }
 .imagep1
 {
+
+}
+.choixcomplet
+{
+	display: flex;
+	
+	justify-content: center;
 
 }

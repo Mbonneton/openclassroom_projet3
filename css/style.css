@@ -1,9 +1,3 @@
-* {
-  margin: none;
-  padding: none;
-  border: none;
-}
-
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -26,6 +20,15 @@ h2 {
   padding: 10px;
 }
 
+.buttonexplo {
+  display: flex;
+  justify-content: center;
+  border: none;
+  background-color: purple;
+  border-radius: 10px 10px 10px 10px;
+  color: white;
+}
+
 i {
   margin-right: 15px;
 }
@@ -44,6 +47,11 @@ i {
 
 .titreimage {
   background-color: lightgrey;
+}
+
+.choixcomplet {
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
