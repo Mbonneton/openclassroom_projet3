@@ -68,17 +68,25 @@ i {
   width: 90%;
   justify-content: center;
   flex-direction: row;
+  padding: 1rem;
 }
 .fonctio .menu_number {
   padding: 0.5rem;
   margin: 0.5rem 0.5rem 0.5rem -1rem;
   width: 10%;
+  background-color: #9356DC;
+  border-radius: 12rem;
+  color: white;
 }
 .fonctio .menu_card {
   display: flex;
   flex-direction: row;
+  background-color: #f6f6f6;
+  padding: 0.5rem;
+  border-radius: 1.2rem 1.2rem 1.2rem 1.2rem;
+  color: black;
 }
-.fonctio .menu_card p {
+.fonctio .menu_card f p {
   margin: 0;
   padding: 1rem;
 }
@@ -86,8 +94,8 @@ i {
   padding: 1rem;
 }
 
-.titreimage {
-  background-color: lightgrey;
+.titreresto {
+  background-color: #f6f6f6;
 }
 
 img {

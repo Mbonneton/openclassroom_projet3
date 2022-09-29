@@ -11,3 +11,6 @@ developppement de l'html avec structure parents-enfant en methode BEM
 structuration Css ( sass) pour pouvoir faire la mise en forme thematique comme demander.
 
 revision du cours BEM et structuration sur le css -saas
+
+implantation du code bem pour le sass style en css par famille et description.
+mise en oeuvre du style sass sur le debut des images en rapport au plan donner.
