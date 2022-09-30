@@ -14,3 +14,9 @@ revision du cours BEM et structuration sur le css -saas
 
 implantation du code bem pour le sass style en css par famille et description.
 mise en oeuvre du style sass sur le debut des images en rapport au plan donner.
+
+
+mise en forme des bloc pour les images 
+mise en place de l'animation avec le logo ( coeur ) qui derive sur du violet.  ( reste à alterner sur un degardé).
+
+mise en forme petit à petit du css grâce à sass et injection dans git

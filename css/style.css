@@ -97,6 +97,25 @@ i {
 .titreresto {
   background-color: #f6f6f6;
 }
+.titreresto_blocimg {
+  box-shadow: 0px 2px 4px 0px;
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+.titreresto_text1 {
+  padding: 1rem;
+}
+.titreresto_symbole {
+  display: flex;
+  flex-direction: row-reverse;
+  -webkit-transition: color 1s;
+  transition: color 1s;
+}
+.titreresto_symbole:hover {
+  color: #9356DC;
+}
 
 img {
   max-width: 100%;
