@@ -154,5 +154,17 @@ max-width: 100%;
 
 
 }
+.baspage
+{
+	background-color: #353535 ;
+	color: white;
 
+&_text
+{
+	display: flex;
+	flex-direction: columns;
+
+}
+
+}
 

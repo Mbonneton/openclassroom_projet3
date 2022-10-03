@@ -121,4 +121,13 @@ img {
   max-width: 100%;
 }
 
+.baspage {
+  background-color: #353535;
+  color: white;
+}
+.baspage_text {
+  display: flex;
+  flex-direction: columns;
+}
+
 /*# sourceMappingURL=style.css.map */
