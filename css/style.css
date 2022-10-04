@@ -60,17 +60,19 @@ i {
   text-align: center;
 }
 
-.fonctio {
+.fonction {
   flex-direction: column;
 }
-.fonctio .menu {
+.fonction_name {
+  padding-left: 1rem;
+}
+.fonction .menu {
   display: flex;
   width: 90%;
   justify-content: center;
   flex-direction: row;
-  padding: 1rem;
 }
-.fonctio .menu_number {
+.fonction .menu_number {
   padding: 1rem;
   margin: 0.5rem 0rem 1.1rem 1rem;
   width: 5%;
@@ -78,7 +80,7 @@ i {
   border-radius: 5rem;
   color: white;
 }
-.fonctio .menu_card {
+.fonction .menu_card {
   display: flex;
   flex-direction: row;
   background-color: #f6f6f6;
@@ -87,11 +89,11 @@ i {
   color: black;
   margin: auto;
 }
-.fonctio .menu_card p {
+.fonction .menu_card p {
   margin: 0;
   padding: 1rem;
 }
-.fonctio .menu_card i {
+.fonction .menu_card i {
   padding: 1rem;
 }
 
@@ -106,6 +108,10 @@ i {
 }
 .titreresto_text1 {
   padding: 0.5rem;
+  margin-top: 2rem;
+}
+.titreresto_text2 {
+  padding-left: 1rem;
 }
 .titreresto_symbole {
   display: flex;
@@ -115,6 +121,10 @@ i {
 }
 .titreresto_symbole:hover {
   color: #9356DC;
+}
+.titreresto_soustext {
+  padding-left: 1rem;
+  padding-bottom: 2rem;
 }
 
 img {
@@ -126,6 +136,16 @@ img {
   background-color: #353535;
   color: white;
   padding: 1rem;
+  text-align: center;
+}
+.baspage_name {
+  display: flex;
+}
+.baspage_text {
+  display: flex;
+}
+.baspage i {
+  padding-top: 1.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -22,3 +22,6 @@ mise en place de l'animation avec le logo ( coeur ) qui derive sur du violet.  (
 mise en forme petit à petit du css grâce à sass et injection dans git
 
 correction et developpement du style sur les images et le footer
+
+mise en forme des icones , placement également des icones. espace des bloc photos , 
+retouche et finition sur certains points.
