@@ -25,3 +25,16 @@ correction et developpement du style sur les images et le footer
 
 mise en forme des icones , placement également des icones. espace des bloc photos , 
 retouche et finition sur certains points.
+
+modification du texte html , sass .
+implantation de familles  et de span.
+
+mise en oeuvre sur sass pour le style.
+
+
+reglage des icone à animation. 
+
+regagle et recadrage des photos et de la colone.
+
+
+
