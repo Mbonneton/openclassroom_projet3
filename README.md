@@ -38,3 +38,4 @@ regagle et recadrage des photos et de la colone.
 
 
 
+modification centrage des images et mise en oeuvre du logo chargement 
