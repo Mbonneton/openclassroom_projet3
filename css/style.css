@@ -17,6 +17,31 @@ h2 {
   font-weight: bold;
 }
 
+.loader {
+  position: fixed;
+  display: grid;
+  place-items: center;
+  background-color: #f6f6f6;
+  height: 100vh;
+  z-index: 1;
+  opacity: 0.9;
+  width: 100%;
+  animation: disappear 2s forwards;
+  animation-delay: 4s;
+  transform-origin: top;
+}
+.loader .loader_img {
+  color: #9356DC;
+}
+
+@keyframes disappear {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
 .ohmy {
   text-align: center;
 }
@@ -181,6 +206,7 @@ img {
 }
 .baspage_text {
   display: flex;
+  color: white;
 }
 .baspage i {
   padding-top: 1.5rem;
