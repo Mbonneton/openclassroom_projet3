@@ -45,3 +45,5 @@ mise en forme du loader avec sont animation
 régalage couleur et réglage mouvements.
 
 mise en forme des balise de redirection.
+
+finalisation de la première page ainsi que debut du developpement responsive ( tablette / ordinateur ( destop))

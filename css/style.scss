@@ -19,26 +19,26 @@ h2
 	font-weight: bold;
 }
 .loader{
-position: fixed;
-display: grid;
-place-items: center;
+	position: fixed;
+	display: grid;
+	place-items: center;
 	background-color: #f6f6f6;
 	height: 100vh;
 	z-index: 1;
 	opacity: 0.9;
 	width: 100%;
 	animation: disappear 2s forwards;
-	animation-delay: 4s;
+	animation-delay: 1s;
 	transform-origin: top;
-.loader_img{
-	color: #9356DC;
-}
+	.loader_img{
+		color: #9356DC;
+	}
 }
 
 
 @keyframes disappear {
-0% {transform: scale(1.0);}
-100%{transform: scale(0);}
+	0% {transform: scale(1.0);}
+	100%{transform: scale(0);}
 }
 .ohmy
 {
@@ -55,6 +55,8 @@ place-items: center;
 		background-color: transparent;
 		width: 30%;
 		font-weight: bold;
+		text-align: center;
+		height: 1.2rem;
 	}
 }
 .barre
@@ -89,6 +91,11 @@ i
 		margin-bottom: 1rem;
 		padding: 1rem;
 		font-size: 1.1rem;
+		transition: all 0.5s;
+
+		&:hover {
+			opacity: 0.8;
+		}
 
 	}
 }
@@ -102,8 +109,15 @@ i
 
 .fonction
 {
-	flex-direction: column;
+	
+	background-color: white;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 
+&_bloc{
+	display: flex;
+	flex-direction: column;
+}
 
 	&_name{
 		padding-left: 1rem;
@@ -152,7 +166,7 @@ i
 			color: black;
 			font-weight: bold;
 			width: 100%;
-			
+			box-shadow: 0 0.25rem 0.5rem #00000033;
 			
 
 
@@ -190,24 +204,49 @@ i
 	.titreresto
 	{
 		background-color: #f6f6f6;
+		padding-left: 1rem;
+		padding-right: 1rem;
 
 
 
 
 		&_blocimg{
-			box-shadow: 0px 2px 4px 0px;
+			box-shadow: 0px 0.25rem 0.5rem #00000033;
 			background-color: white;
 			border-radius: 1rem;
 			margin-bottom: 2rem;
+
 			.titreresto_textt{
 				display: flex ;
 				width: 100%;
-
 				flex-direction:row ;
+
 				.titreresto_text{
-					width: 85%;
+
+					width: 100%;
 					display: flex ;
 					flex-direction: column ;
+
+				}
+
+			}
+			.titreresto_img {
+				position: relative;
+				.new{
+					background-color: #99E2D0;
+					padding: 0.5rem;
+					position: absolute;
+					top: 10px;
+					right: 10px;
+
+				}
+				img{
+					object-fit: cover;
+					height: 200px;
+					width: 100%;
+					max-width: 100%;
+					border-radius: 1rem 1rem 0rem 0rem;
+
 				}
 			}
 			
@@ -222,6 +261,9 @@ i
 		}
 		&_text2{
 			padding-left: 1rem;
+			h3{
+				margin-bottom: 0;
+			}
 		}
 
 		&_symbole{
@@ -252,16 +294,10 @@ i
 
 		&_soustext{
 			padding-left: 1rem;
-			padding-bottom: 2rem;
+			padding-bottom: 1rem;
 		}
 	}
-	img
-	{
-		max-width: 100%;
-		border-radius: 1rem 1rem 0rem 0rem;
 
-
-	}
 	.baspage
 	{
 		background-color: #353535 ;
@@ -274,14 +310,45 @@ i
 
 		&_name{
 			display: flex;
+			font-family: 'Shrikhand', cursive;
+			font-size: 1.2rem;
+			letter-spacing: 0.15rem;
 
 		}
 		&_text{
 			display: flex;
 			color: white;
+			padding-top: 0.5rem;
+			padding-bottom: 0.5rem;
+			h5{
+				font-size: 1rem;
+				margin: 0;
+			}
+			h6{
+				font-size: 1rem;
+				margin:0;
+			}
 		}
-		i{
-			padding-top: 1.5rem;
-		}
+	
+	}
+	@media (min-width: 768px){
+
+
+
+
 	}
 
+
+	@media (min-width:992px){
+		.fonction{
+			&_bloc{
+				flex-direction: row;
+				.bloc_menu{
+					width: 33%;
+
+				}
+			}
+		}
+
+
+	}

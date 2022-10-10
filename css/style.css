@@ -27,7 +27,7 @@ h2 {
   opacity: 0.9;
   width: 100%;
   animation: disappear 2s forwards;
-  animation-delay: 4s;
+  animation-delay: 1s;
   transform-origin: top;
 }
 .loader .loader_img {
@@ -56,6 +56,8 @@ h2 {
   background-color: transparent;
   width: 30%;
   font-weight: bold;
+  text-align: center;
+  height: 1.2rem;
 }
 
 .barre {
@@ -84,6 +86,10 @@ i {
   margin-bottom: 1rem;
   padding: 1rem;
   font-size: 1.1rem;
+  transition: all 0.5s;
+}
+.cadrereserv .buttonexplo:hover {
+  opacity: 0.8;
 }
 
 .reser, p, button {
@@ -91,6 +97,12 @@ i {
 }
 
 .fonction {
+  background-color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.fonction_bloc {
+  display: flex;
   flex-direction: column;
 }
 .fonction_name {
@@ -128,6 +140,7 @@ i {
   color: black;
   font-weight: bold;
   width: 100%;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
 }
 .fonction .menu_card p {
   margin: 0;
@@ -146,9 +159,11 @@ i {
 
 .titreresto {
   background-color: #f6f6f6;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 .titreresto_blocimg {
-  box-shadow: 0px 2px 4px 0px;
+  box-shadow: 0px 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
   background-color: white;
   border-radius: 1rem;
   margin-bottom: 2rem;
@@ -159,9 +174,26 @@ i {
   flex-direction: row;
 }
 .titreresto_blocimg .titreresto_textt .titreresto_text {
-  width: 85%;
+  width: 100%;
   display: flex;
   flex-direction: column;
+}
+.titreresto_blocimg .titreresto_img {
+  position: relative;
+}
+.titreresto_blocimg .titreresto_img .new {
+  background-color: #99E2D0;
+  padding: 0.5rem;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.titreresto_blocimg .titreresto_img img {
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+  max-width: 100%;
+  border-radius: 1rem 1rem 0rem 0rem;
 }
 .titreresto_text1 {
   padding: 0.5rem;
@@ -169,6 +201,9 @@ i {
 }
 .titreresto_text2 {
   padding-left: 1rem;
+}
+.titreresto_text2 h3 {
+  margin-bottom: 0;
 }
 .titreresto_symbole {
   display: flex;
@@ -187,12 +222,7 @@ i {
 }
 .titreresto_soustext {
   padding-left: 1rem;
-  padding-bottom: 2rem;
-}
-
-img {
-  max-width: 100%;
-  border-radius: 1rem 1rem 0rem 0rem;
+  padding-bottom: 1rem;
 }
 
 .baspage {
@@ -203,13 +233,32 @@ img {
 }
 .baspage_name {
   display: flex;
+  font-family: "Shrikhand", cursive;
+  font-size: 1.2rem;
+  letter-spacing: 0.15rem;
 }
 .baspage_text {
   display: flex;
   color: white;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
-.baspage i {
-  padding-top: 1.5rem;
+.baspage_text h5 {
+  font-size: 1rem;
+  margin: 0;
+}
+.baspage_text h6 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+@media (min-width: 992px) {
+  .fonction_bloc {
+    flex-direction: row;
+  }
+  .fonction_bloc .bloc_menu {
+    width: 33%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
