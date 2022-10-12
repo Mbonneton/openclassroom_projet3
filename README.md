@@ -47,3 +47,7 @@ régalage couleur et réglage mouvements.
 mise en forme des balise de redirection.
 
 finalisation de la première page ainsi que debut du developpement responsive ( tablette / ordinateur ( destop))
+
+mise en page pour la reponsive 
+
+mise en place de la base html pour la seconde page et mise en place des balises.
