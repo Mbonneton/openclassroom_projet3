@@ -51,3 +51,5 @@ finalisation de la première page ainsi que debut du developpement responsive ( 
 mise en page pour la reponsive 
 
 mise en place de la base html pour la seconde page et mise en place des balises.
+
+mise en forme du style responsive et finalisation balise page 1 et 2 
