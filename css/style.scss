@@ -17,6 +17,7 @@ h1
 h2
 {
 	font-weight: bold;
+
 }
 .loader{
 	position: fixed;
@@ -237,6 +238,7 @@ i
 
 				}
 
+
 			}
 			.titreresto_img {
 				position: relative;
@@ -342,7 +344,18 @@ i
 			}
 		}
 
-	}
+
+
+}
+	.imagetete img{
+			width: 100%;
+		}
+		.titreresto_textt{
+			font-family: "Roboto", sans-serif;
+		}
+
+
+	
 	@media (min-width: 768px){
 
 	.baspage_name{

@@ -56,3 +56,6 @@ mise en forme du style responsive et finalisation balise page 1 et 2
 
 finalisation premiere page en sass/ html ,
 debut deuxieme page et correction deuxieme page.
+
+
+mise en forme du html / sasss pour la page 2

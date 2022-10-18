@@ -260,6 +260,14 @@ i {
   margin: 0;
 }
 
+.imagetete img {
+  width: 100%;
+}
+
+.titreresto_textt {
+  font-family: "Roboto", sans-serif;
+}
+
 @media (min-width: 768px) {
   .baspage_name {
     font-size: 2rem;
