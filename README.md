@@ -59,3 +59,4 @@ debut deuxieme page et correction deuxieme page.
 
 
 mise en forme du html / sasss pour la page 2
+continuation du developpement de la page 2
