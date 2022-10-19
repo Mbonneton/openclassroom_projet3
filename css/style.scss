@@ -44,8 +44,13 @@ h2
 .ohmy
 {
 	text-align: center;
-a{
-	color: black;
+	a{
+		color: black;
+	}
+	.retour:hover {
+		border-bottom: 3px solid #000;
+			color: #99e2d0;
+			font-weight: bold;
 	}
 }	
 
@@ -271,6 +276,12 @@ i
 	&_text1{
 		padding: 0.5rem;
 		margin-top: 2rem;
+		h3:hover
+		{
+			border-bottom: 3px solid #99e2d0;
+			color: #000;
+			font-weight: bold;
+		}
 
 	}
 	&_text2{
@@ -360,51 +371,57 @@ i
 .titreresto_textt{
 	font-family: "Roboto", sans-serif;
 }
+.france{
+	display: flex;
+	justify-content: space-between;
+}
 
 
-	@media (min-width: 768px){
 
-		.baspage_name{
-			font-size: 2rem;
-		}
 
-		.logomap,input{
-			font-size: 1.2rem;
-		}
-		
-		.baspage_text h5{
-			font-size: 1.2rem;
-		}
+@media (min-width: 768px){
 
-		.titreresto_blocimg .titreresto_img .new {font-size: 1.5rem;}
-		.titreresto_blocimg{
-			width: 48%;
-		}
-		.titreresto_menu{
-			justify-content: space-between;
-		}
-
+	.baspage_name{
+		font-size: 2rem;
 	}
 
+	.logomap,input{
+		font-size: 1.2rem;
+	}
 
-	@media (min-width:992px){
+	.baspage_text h5{
+		font-size: 1.2rem;
+	}
 
-		.menu_card{
-			span{
-				font-size: 1rem;
+	.titreresto_blocimg .titreresto_img .new {font-size: 1.5rem;}
+	.titreresto_blocimg{
+		width: 48%;
+	}
+	.titreresto_menu{
+		justify-content: space-between;
+	}
+
+}
+
+
+@media (min-width:992px){
+
+	.menu_card{
+		span{
+			font-size: 1rem;
+		}
+	}
+	.fonction{
+		&_bloc{
+			flex-direction: row;
+			.bloc_menu{
+				width: 33%;
+
 			}
 		}
-		.fonction{
-			&_bloc{
-				flex-direction: row;
-				.bloc_menu{
-					width: 33%;
+	}
 
-				}
-			}
-		}
-
-		.titreresto_blocimg{
-			width: 23%;
-		}
-	}	
+	.titreresto_blocimg{
+		width: 23%;
+	}
+}	
