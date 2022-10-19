@@ -45,6 +45,9 @@ h2 {
 .ohmy {
   text-align: center;
 }
+.ohmy a {
+  color: black;
+}
 
 .logomap {
   text-align: center;
@@ -262,6 +265,9 @@ i {
 
 .imagetete img {
   width: 100%;
+  height: auto;
+  max-height: 250px;
+  object-fit: cover;
 }
 
 .titreresto_textt {
