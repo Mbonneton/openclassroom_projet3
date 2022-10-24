@@ -44,15 +44,16 @@ h2
 .ohmy
 {
 	text-align: center;
+	
 	a{
 		color: black;
+
 	}
-	.retour:hover {
-		border-bottom: 3px solid #000;
-			color: #99e2d0;
-			font-weight: bold;
-			
+	.retour{
+		position: absolute;
+		left: 20px;
 	}
+
 }	
 
 .logomap
@@ -218,12 +219,58 @@ i
 	background-color: #f6f6f6;
 	padding-left: 1rem;
 	padding-right: 1rem;
+	.titrerestobloc{
+		background-color: #f6f6f6;
+		margin-top: -1rem;
+	}
+
 
 	&_menu{
 		display: flex;
 		flex-wrap: wrap;
+
+
 	}
 
+
+		.titreresto_page2{
+			overflow: hidden;
+			display: flex ;
+			width: 100%;
+			flex-direction:row ;
+			font-family: "Roboto", sans-serif; 
+			background-color: white;
+			border-radius: 1rem;
+			box-shadow: 0px 0.25rem 0.5rem #00000033;
+			margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+			.textedouble{
+				width: 80%;
+				transition: all 0.5s;
+				h4,h5{
+					text-overflow: ellipsis;
+					white-space: nowrap;
+					overflow: hidden;
+				}
+			}
+			.blocrepas_prix{
+				width: 20%;
+			}
+			.blocrepas_logo{
+				width: 0%;
+				transition: all 0.5s;
+			}
+&:hover{
+	.textedouble{
+				width: 60%;
+			}
+
+			.blocrepas_logo{
+				width: 20%;
+			}
+}
+		}
 
 
 
@@ -239,6 +286,7 @@ i
 			display: flex ;
 			width: 100%;
 			flex-direction:row ;
+			font-family: "Roboto", sans-serif;
 
 			.titreresto_text{
 
@@ -274,21 +322,30 @@ i
 
 
 	}
+	.blocrepas_prix{
+		p{
+			margin-top: 0;
+			margin-bottom: 0;
+			padding-top: 1rem;
+		}
+	}
 	&_text1{
 		padding: 0.5rem;
 		margin-top: 2rem;
-		h3:hover
+		span
 		{
 			border-bottom: 3px solid #99e2d0;
-			color: #000;
-			font-weight: bold;
+			padding-bottom: 3px;
 		}
 
 	}
 	&_text2{
 		padding-left: 1rem;
-		h3{
+
+		h3,h4,h5{
 			margin-bottom: 0;
+			margin-top: 0;
+
 		}
 	}
 
@@ -297,7 +354,8 @@ i
 		display: flex;
 		flex-direction: row-reverse;
 		font-size: 1.5rem;
-		padding-top: 2rem;
+		padding-top: 1rem;
+		
 
 
 		.fa-solid.fa-heart{
@@ -369,12 +427,13 @@ i
 	max-height: 250px;
 	object-fit: cover;
 }
-.titreresto_textt{
-	font-family: "Roboto", sans-serif;
-}
+
 .france{
 	display: flex;
 	justify-content: space-between;
+	span{
+			padding-top: 0.5rem;
+		}
 }
 
 

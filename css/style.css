@@ -48,10 +48,9 @@ h2 {
 .ohmy a {
   color: black;
 }
-.ohmy .retour:hover {
-  border-bottom: 3px solid #000;
-  color: #99e2d0;
-  font-weight: bold;
+.ohmy .retour {
+  position: absolute;
+  left: 20px;
 }
 
 .logomap {
@@ -170,9 +169,48 @@ i {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+.titreresto .titrerestobloc {
+  background-color: #f6f6f6;
+  margin-top: -1rem;
+}
 .titreresto_menu {
   display: flex;
   flex-wrap: wrap;
+}
+.titreresto .titreresto_page2 {
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0px 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+.titreresto .titreresto_page2 .textedouble {
+  width: 80%;
+  transition: all 0.5s;
+}
+.titreresto .titreresto_page2 .textedouble h4, .titreresto .titreresto_page2 .textedouble h5 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.titreresto .titreresto_page2 .blocrepas_prix {
+  width: 20%;
+}
+.titreresto .titreresto_page2 .blocrepas_logo {
+  width: 0%;
+  transition: all 0.5s;
+}
+.titreresto .titreresto_page2:hover .textedouble {
+  width: 60%;
+}
+.titreresto .titreresto_page2:hover .blocrepas_logo {
+  width: 20%;
 }
 .titreresto_blocimg {
   box-shadow: 0px 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
@@ -185,6 +223,7 @@ i {
   display: flex;
   width: 100%;
   flex-direction: row;
+  font-family: "Roboto", sans-serif;
 }
 .titreresto_blocimg .titreresto_textt .titreresto_text {
   width: 100%;
@@ -208,26 +247,31 @@ i {
   max-width: 100%;
   border-radius: 1rem 1rem 0rem 0rem;
 }
+.titreresto .blocrepas_prix p {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 1rem;
+}
 .titreresto_text1 {
   padding: 0.5rem;
   margin-top: 2rem;
 }
-.titreresto_text1 h3:hover {
+.titreresto_text1 span {
   border-bottom: 3px solid #99e2d0;
-  color: #000;
-  font-weight: bold;
+  padding-bottom: 3px;
 }
 .titreresto_text2 {
   padding-left: 1rem;
 }
-.titreresto_text2 h3 {
+.titreresto_text2 h3, .titreresto_text2 h4, .titreresto_text2 h5 {
   margin-bottom: 0;
+  margin-top: 0;
 }
 .titreresto_symbole {
   display: flex;
   flex-direction: row-reverse;
   font-size: 1.5rem;
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 .titreresto_symbole .fa-solid.fa-heart {
   position: absolute;
@@ -280,13 +324,12 @@ i {
   object-fit: cover;
 }
 
-.titreresto_textt {
-  font-family: "Roboto", sans-serif;
-}
-
 .france {
   display: flex;
   justify-content: space-between;
+}
+.france span {
+  padding-top: 0.5rem;
 }
 
 @media (min-width: 768px) {
