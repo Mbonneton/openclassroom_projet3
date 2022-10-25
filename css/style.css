@@ -205,6 +205,10 @@ i {
 .titreresto .titreresto_page2 .blocrepas_logo {
   width: 0%;
   transition: all 0.5s;
+  padding-top: 0.5rem;
+}
+.titreresto .titreresto_page2 .blocrepas_logo:hover {
+  background-color: blue;
 }
 .titreresto .titreresto_page2:hover .textedouble {
   width: 60%;

@@ -219,6 +219,8 @@ i
 	background-color: #f6f6f6;
 	padding-left: 1rem;
 	padding-right: 1rem;
+
+
 	.titrerestobloc{
 		background-color: #f6f6f6;
 		margin-top: -1rem;
@@ -245,6 +247,8 @@ i
 			margin-top: 1rem;
     margin-bottom: 1rem;
     padding: 1rem;
+
+
 			.textedouble{
 				width: 80%;
 				transition: all 0.5s;
@@ -260,6 +264,11 @@ i
 			.blocrepas_logo{
 				width: 0%;
 				transition: all 0.5s;
+				padding-top: 0.5rem;
+				&:hover{
+					background-color: blue;
+					
+				}
 			}
 &:hover{
 	.textedouble{
