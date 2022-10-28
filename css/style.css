@@ -212,6 +212,10 @@ i {
 }
 .titreresto .titreresto_page2 .blocrepas_logo i {
   font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  margin-left: 0.8rem;
+  margin-top: 0.5rem;
 }
 .titreresto .titreresto_page2:hover .textedouble {
   width: 60%;
