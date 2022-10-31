@@ -58,3 +58,4 @@ Technologies
     Gimp ( mesurer les éléments des maquettes )
     Font Awesome ( importation d'icones )
     Google Font: Logo et titres Shrikhand, Texte: Roboto ( importation des links )
+s
