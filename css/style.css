@@ -224,6 +224,12 @@ i {
 }
 .titreresto .titreresto_page2 .blocrepas_prix {
   width: 20%;
+  display: flex;
+}
+.titreresto .titreresto_page2 .blocrepas_prix p {
+  font-weight: bold;
+  margin-top: auto;
+  margin-bottom: 0.7rem;
 }
 .titreresto .titreresto_page2 .blocrepas_logo {
   width: 0%;
@@ -238,6 +244,7 @@ i {
   justify-content: center;
   margin-left: 0.8rem;
   margin-top: 0.5rem;
+  transition: all 0.7s;
 }
 .titreresto .titreresto_page2:hover .textedouble {
   width: calc(80% - 4rem);
@@ -245,12 +252,18 @@ i {
 .titreresto .titreresto_page2:hover .blocrepas_logo {
   width: 4rem;
 }
+.titreresto .titreresto_page2:hover .blocrepas_logo i {
+  transform: rotate(360deg);
+}
 .titreresto_blocimg {
   box-shadow: 0px 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
   background-color: white;
   border-radius: 1rem;
   margin-bottom: 2rem;
   width: 100%;
+}
+.titreresto_blocimg a {
+  color: black;
 }
 .titreresto_blocimg .titreresto_textt {
   display: flex;

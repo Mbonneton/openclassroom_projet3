@@ -300,6 +300,15 @@ i
 		}
 		.blocrepas_prix{
 			width: 20%;
+			display: flex;
+
+			p{
+				font-weight: bold;
+				margin-top: auto;
+				margin-bottom: 0.7rem;
+				
+
+			}
 		}
 		.blocrepas_logo{
 			width: 0%;
@@ -313,6 +322,9 @@ i
 				justify-content: center;
 				margin-left: 0.8rem;
 				margin-top: 0.5rem;
+				transition: all 0.7s;
+
+
 
 
 			}
@@ -325,6 +337,11 @@ i
 
 			.blocrepas_logo{
 				width: 4rem;
+				i{
+					transform: rotate(360deg);
+
+				}
+
 			}
 		}
 	}
@@ -337,6 +354,9 @@ i
 		border-radius: 1rem;
 		margin-bottom: 2rem;
 		width: 100%;
+		a{
+			color: black;
+		}
 
 
 		.titreresto_textt{
